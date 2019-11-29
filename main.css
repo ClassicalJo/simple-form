@@ -1,0 +1,54 @@
+html {
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+.container {
+    max-width: 95vw;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, lavender, rgb(237, 243, 245) );
+}
+
+.header {
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    margin: 0px;
+    margin-bottom: 15px
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.header > p {
+    font-size: 0.75rem;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+form {
+    padding: 5px
+}
+[name=reason] {
+    width: 100%;
+    max-width: 500px;
+    height:4rem;
+}
+
+.error-list {
+    padding: 5px;
+    background: rgba(0,0,0,0.05);
+}
